@@ -1,0 +1,25 @@
+---
+abstract: 'Perl interface to the LZ4 (de)compressor'
+author:
+  - 'gray <gray@cpan.org>'
+build_requires:
+  Test::More: 0.82
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120351'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Compress-LZ4
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  XSLoader: 0
+  parent: 0
+resources:
+  repository: https://github.com/gray/compress-lz4
+version: 0.01
