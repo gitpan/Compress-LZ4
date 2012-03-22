@@ -22,4 +22,4 @@ requires:
   parent: 0
 resources:
   repository: https://github.com/gray/compress-lz4
-version: 0.05
+version: 0.06
