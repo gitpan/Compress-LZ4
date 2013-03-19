@@ -6,7 +6,7 @@ use parent qw(Exporter);
 
 use XSLoader;
 
-our $VERSION    = '0.16';
+our $VERSION    = '0.17';
 our $XS_VERSION = $VERSION;
 $VERSION = eval $VERSION;
 
@@ -145,7 +145,7 @@ L<http://search.cpan.org/dist/Compress-LZ4/>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2012 gray <gray at cpan.org>, all rights reserved.
+Copyright (C) 2012-2013 gray <gray at cpan.org>, all rights reserved.
 
 This library is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
