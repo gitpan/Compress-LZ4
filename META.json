@@ -4,7 +4,7 @@
       "gray <gray@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.82, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -32,8 +32,8 @@
       },
       "runtime" : {
          "requires" : {
-            "XSLoader" : "0",
-            "parent" : "0"
+            "Exporter" : "5.57",
+            "XSLoader" : "0"
          }
       }
    },
@@ -43,5 +43,5 @@
          "url" : "https://github.com/gray/compress-lz4"
       }
    },
-   "version" : "0.17"
+   "version" : "0.18"
 }
